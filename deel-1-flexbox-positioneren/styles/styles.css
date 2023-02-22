@@ -1,1 +1,32 @@
-/*Schrijf hier jouw CSS*/
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-2 li {
+    flex-basis: auto;
+}
+
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+}
+
+.topleft {
+    align-self: flex-start;
+}
+
+.center {
+    align-self: center;
+}
+
+.bottomright {
+    align-self: flex-end;
+}
